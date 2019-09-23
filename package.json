@@ -1,0 +1,17 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "resume",
+  "author": "Francesco Esposito <http://fran.cesco.io>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/francescoes/jsonresume-theme-stackoverflow"
+  },
+  "license": "MIT",
+  "main": "index.ts",
+  "dependencies": {
+    "@types/node": "^12.7.5",
+    "handlebars": "^4.1.2",
+    "moment": "^2.18.1"
+  }
+}
