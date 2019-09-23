@@ -7,6 +7,9 @@
     "type": "git",
     "url": "https://github.com/francescoes/jsonresume-theme-stackoverflow"
   },
+  "scripts": {
+    "develop": "resume serve -d docs"
+  },
   "license": "MIT",
   "main": "index.ts",
   "dependencies": {
