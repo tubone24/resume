@@ -12,3 +12,8 @@ Created by [API with GitHub](https://apiwithgithub.com/editor/tubone24/resume-js
 Hosting by Github-pages.
 
 [https://tubone24.github.io/resume/](https://tubone24.github.io/resume/)
+
+## PDF FORMAT
+Hosting by Github-pages.
+
+[https://tubone24.github.io/resume/PDF.pdf](https://tubone24.github.io/resume/PDF.pdf)
