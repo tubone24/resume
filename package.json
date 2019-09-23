@@ -8,13 +8,14 @@
     "url": "https://github.com/francescoes/jsonresume-theme-stackoverflow"
   },
   "scripts": {
-    "develop": "resume serve -d docs"
+    "develop": "resume serve -d docs -t stackoverflow"
   },
   "license": "MIT",
   "main": "index.ts",
   "dependencies": {
     "@types/node": "^12.7.5",
     "handlebars": "^4.1.2",
+    "jsonresume-theme-stackoverflow": "^1.4.0",
     "moment": "^2.18.1"
   }
 }
