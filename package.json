@@ -8,6 +8,7 @@
     "url": "https://github.com/francescoes/jsonresume-theme-stackoverflow"
   },
   "scripts": {
+    "start": "npm run develop",
     "develop": "resume serve -d docs -t stackoverflow"
   },
   "license": "MIT",
