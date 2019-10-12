@@ -1,11 +1,11 @@
 {
   "name": "resume",
   "version": "1.0.0",
-  "description": "resume",
-  "author": "Francesco Esposito <http://fran.cesco.io>",
+  "description": "tubone's resume",
+  "author": "tubone24 <tubo.yyyuuu@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/francescoes/jsonresume-theme-stackoverflow"
+    "url": "https://github.com/tubone24/resume"
   },
   "scripts": {
     "start": "npm run develop",
