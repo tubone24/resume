@@ -48,4 +48,4 @@ Hosting by Github-pages.
 
 TEX FORMAT created by [Resumake](https://latexresu.me/)
 
-[https://tubone24.github.io/resume/tex/resume.tex](https://tubone24.github.io/resume/tex/resume.tex)
+[https://tubone24.github.io/resume/latex/resume.tex](https://tubone24.github.io/resume/latex/resume.tex)
