@@ -33,11 +33,19 @@ And also, resume html file is created in `docs` direcry.
 If ok, commit and push with a html in docs so that deploying gh-pages. 
 
 ## HTML FORMAT
+
 Hosting by Github-pages.
 
 [https://tubone24.github.io/resume/](https://tubone24.github.io/resume/)
 
 ## PDF FORMAT
+
 Hosting by Github-pages.
 
 [https://tubone24.github.io/resume/PDF.pdf](https://tubone24.github.io/resume/PDF.pdf)
+
+## TEX FORMAT
+
+TEX FORMAT created by [Resumake](https://latexresu.me/)
+
+[https://tubone24.github.io/resume/tex/resume.tex](https://tubone24.github.io/resume/tex/resume.tex)
