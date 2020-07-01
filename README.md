@@ -1,5 +1,7 @@
 # tubone resume
 
+[![Actions Status](https://github.com/tubone24/resume/workflows/Build%20and%20Deploy/badge.svg)](https://github.com/tubone24/resume/actions?query=workflow%3A%22Build+and+Deploy%22)
+
 tubone's resume using by [Json Resume](https://jsonresume.org/)
 
 ## Json Resume API
