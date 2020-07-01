@@ -28,9 +28,17 @@ Next, preview local [http://localhost:4000](http://localhost:4000)
 npm run develop
 ```
 
-And also, resume html file is created in `docs` direcry.
+Build HTML
 
-If ok, commit and push with a html in docs so that deploying gh-pages. 
+```
+npm run build-html
+```
+
+Build PDF
+
+```
+npm run build-pdf
+```
 
 ## HTML FORMAT
 
@@ -43,3 +51,9 @@ Hosting by Github-pages.
 Hosting by Github-pages.
 
 [https://tubone24.github.io/resume/PDF.pdf](https://tubone24.github.io/resume/PDF.pdf)
+
+## CI/CD
+
+The repository uses `GitHub Actions` to commit the built files to the gh-pages branch.
+
+With GitHub Pages, all you have to do is commit the `resume.json` file and you'll get a It will be released.
