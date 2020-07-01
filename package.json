@@ -9,7 +9,9 @@
   },
   "scripts": {
     "start": "npm run develop",
-    "develop": "resume serve -d docs -t stackoverflow"
+    "develop": "npx resume serve -d docs -t stackoverflow",
+    "build-html": "npx resume export docs/index.html --format html -t stackoverflow",
+    "build-pdf": "npx resume export docs/PDF.pdf --format pdf -t stackoverflow"
   },
   "license": "MIT",
   "main": "index.ts",
@@ -17,7 +19,8 @@
     "@types/node": "^12.7.5",
     "handlebars": "^4.1.2",
     "jsonresume-theme-stackoverflow": "^1.4.0",
-    "moment": "^2.18.1"
+    "moment": "^2.18.1",
+    "resume-cli": "^1.2.8"
   },
   "devDependencies": {
     "jsonresume-theme-developpez": "^1.1.3"

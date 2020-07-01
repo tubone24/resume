@@ -43,9 +43,3 @@ Hosting by Github-pages.
 Hosting by Github-pages.
 
 [https://tubone24.github.io/resume/PDF.pdf](https://tubone24.github.io/resume/PDF.pdf)
-
-## TEX FORMAT
-
-TEX FORMAT created by [Resumake](https://latexresu.me/)
-
-[https://tubone24.github.io/resume/latex/resume.tex](https://tubone24.github.io/resume/latex/resume.tex)
