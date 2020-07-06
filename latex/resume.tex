@@ -1,0 +1,209 @@
+\documentclass[fontsize=11pt]{article}
+    \usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[protrusion=true,expansion=true]{microtype}
+\usepackage[svgnames]{xcolor}  % Colours by their 'svgnames'
+\usepackage[margin=0.75in]{geometry}
+  \textheight=700px
+\usepackage{url}
+\usepackage{lmodern} % Allow arbitrary font sizes
+\usepackage{textcomp}
+
+%% Define a new 'modern' style for the url package that will use a smaller font.
+\makeatletter
+\def\url@modernstyle{
+  \@ifundefined{selectfont}{\def\UrlFont{\sf}}{\def\UrlFont{}}}
+\makeatother
+\urlstyle{modern} %% And use the newly defined style.
+
+\frenchspacing              % Better looking spacings after periods
+\pagestyle{empty}           % No pagenumbers/headers/footers
+
+\renewcommand{\familydefault}{\sfdefault}
+
+%%% Custom sectioning (sectsty package)
+%%% ------------------------------------------------------------
+\usepackage{sectsty}
+
+\sectionfont{                 % Change font of \section command
+  \usefont{OT1}{phv}{b}{n}%   % bch-b-n: CharterBT-Bold font
+  \sectionrule{0pt}{0pt}{-5pt}{3pt}}
+
+%%% Macros
+%%% ------------------------------------------------------------
+\newlength{\spacebox}
+\settowidth{\spacebox}{8888888888}      % Box to align text
+\newcommand{\sepspace}{\vspace*{1em}}   % Vertical space macro
+
+\newcommand{\MyName}[1]{ % Name
+    \Huge \usefont{OT1}{phv}{b}{n} \hfill #1
+    \par \normalsize \normalfont}
+
+\newcommand{\MySlogan}[1]{ % Slogan (optional)
+    \large \usefont{OT1}{phv}{m}{n}\hfill \textit{#1}
+    \par \normalsize \normalfont}
+
+\newcommand{\NewPart}[1]{\section*{\uppercase{#1}}}
+
+\newcommand{\PersonalEntry}[2]{
+    \noindent\hangindent=2em\hangafter=0 % Indentation
+    \parbox{\spacebox}{                  % Box to align text
+    \textit{#1}}                      % Entry name (birth, address, etc.)
+    \hspace{1.5em} #2 \par}              % Entry value
+
+\newcommand{\SkillsEntry}[2]{                % Same as \PersonalEntry
+    \noindent\hangindent=2em\hangafter=0 % Indentation
+    \parbox{\spacebox}{                  % Box to align text
+    \textit{#1}}                    % Entry name (birth, address, etc.)
+    \hspace{1.5em} #2 \par}              % Entry value
+
+\newcommand{\AwardsEntry}[2]{                % Same as \PersonalEntry
+    \noindent\hangindent=2em\hangafter=0 % Indentation
+    \parbox{\spacebox}{                  % Box to align text
+    \textit{#1}}                    % Entry name (birth, address, etc.)
+    \hspace{1.5em} #2 \par}              % Entry value
+
+\newcommand{\EducationEntry}[4]{
+    \noindent \textbf{#1} \hfill      % Study
+    \colorbox{Black}{
+      \parbox{8.5em}{
+      \hfill\color{White}#2}} \par  % Duration
+    \noindent \textit{#3} \par        % School
+    \noindent\hangindent=2em\hangafter=0 \small #4 % Description
+    \normalsize \par}
+
+\newcommand{\WorkEntry}[4]{       % Same as \EducationEntry
+    \noindent \textbf{#1} \hfill      % Jobname
+    \colorbox{Black}{%
+      \parbox{9em}{%
+      \hfill\color{White}#2}} \par   % Duration
+        \noindent \textit{#3} \par        % Company
+    \noindent\hangindent=2em\hangafter=0 \small #4 % Description
+    \normalsize \par}
+
+\newcommand{\ProjectEntry}[4]{         % Similar to \EducationEntry
+    \noindent \textbf{#1} \noindent \textit{#3} \hfill {#2} \par
+    \noindent \small #4 % Description
+    \normalsize \par}
+
+\newcommand{\AwardEntry}[4]{         % Similar to \EducationEntry
+    \noindent \textbf{#1} \noindent \textit{#3} \hfill {#2} \par
+    \noindent \small #4 % Description
+    \normalsize \par}
+    \begin{document}
+    
+\MyName{Yu Otsubo}
+\bigskip
+{\small \hfill tubo.yyyuuu@gmail.com | Tokyo, JP | https://portfolio.tubone-project24.xyz}
+%%% Education
+%%% ------------------------------------------------------------
+\NewPart{Education}{}
+\EducationEntry
+{Bachelor Department of education}
+{2012-04-01 - 2016-03-31}
+{Waseda University, Tokyo, JP 3.4}
+\sepspace
+\EducationEntry
+{Sub-major Software engineering (Sub-major)}
+{2012-04-01 - 2016-03-31}
+{Waseda University, Tokyo, JP}
+\sepspace
+\EducationEntry
+{Sub-major Data analysis (Sub-major)}
+{2012-04-01 - 2016-03-31}
+{Waseda University, Tokyo, JP}
+%%% Work experience
+%%% ------------------------------------------------------------
+
+\NewPart{Experience}{}
+
+\WorkEntry
+{DevOps developer}
+{2016-04-01 - 2017-03-31}
+{Telecommunications, Tokyo, JP}
+{\begin{itemize} \itemsep -1pt
+	\item Started the company
+	\item Integrate monitoring and operation system using by Zabbix and Expect
+	\end{itemize}}
+\sepspace
+\WorkEntry
+{Project Manager}
+{2017-04-01 - 2017-09-30}
+{Telecommunications, Tokyo, JP}
+{\begin{itemize} \itemsep -1pt
+	\item Project management
+	\item Use splunk
+	\item Hadoop(MapR)
+	\end{itemize}}
+\sepspace
+\WorkEntry
+{DevOps developer}
+{2017-10-01 - 2019-03-31}
+{Telecommunications, Tokyo, JP}
+{\begin{itemize} \itemsep -1pt
+	\item Using my first AWS
+	\item Using my first Python
+	\item Server-less architecture
+	\item Scrum development
+	\end{itemize}}
+\sepspace
+\WorkEntry
+{Data Engineering developer}
+{2019-04-01 - Present}
+{Telecommunications, Tokyo, JP}
+{\begin{itemize} \itemsep -1pt
+	\item Data-lake Architecture using by AWS
+	\item Server-less with Lambda Python
+	\item Pandas
+	\item Scrum development
+	\end{itemize}}
+\sepspace
+\WorkEntry
+{Tech Lead}
+{2019-04-01 - Present}
+{Telecommunications, Tokyo, JP}
+{\begin{itemize} \itemsep -1pt
+	\item The Architecture introduced at the AWS Summit
+	\item Scrum development
+	\end{itemize}}
+%%% Skills
+%%% ------------------------------------------------------------
+\NewPart{Skills}{}
+\SkillsEntry{AWS}{EC2, Lambda, ECS, DynamoDB, SQS, CloudWatch, Athena, S3, Glue, ElasticBeanStalk, Terraform, Packer}
+\SkillsEntry{OS/Network/Security}{MacOS, CentOS, Debian(Ubuntu), OpenVPN, TCP/UDP, KVM, Hyper-v, Docker, nmap, Wireshark, Burp}
+\SkillsEntry{Database}{SQL, MySQL, RDS(Aurora), Oracle 11g, Presto with Hadoop, Hive with Hadoop}
+\SkillsEntry{Server-side Develop}{Django(Python), Flask(Python), Responder(Python), SpringBoot(Java), Echo(Go)}
+\SkillsEntry{Automated Test}{Pytest, Jest, Selenium}
+\SkillsEntry{CI/CD}{Jenkins, CircleCI, Drone, Azure Develop Pipeline, Travis, Appvoyeur, GitHub Actions}
+\SkillsEntry{Business Intelligence}{Tableau, QuickSight, Elasticsearch with Kibana, Dash by plotyJs}
+\SkillsEntry{Web Develop}{Vue.js with Typescript, Vuex, Bootstrap4, Gatsby.js, JQuery}
+\SkillsEntry{Data Science}{Jupyter notebook, Pandas, Scikit learn, R, Keras}
+\SkillsEntry{Native App Develop}{Flutter, Android Java(WearOS)}
+%%% Projects
+%%% ------------------------------------------------------------
+\NewPart{Projects}{}
+
+\ProjectEntry{The chatbot service for customer support(Web)}{}
+{AWS, Python, Elasticsearch}
+{The chatbot that solves the problems of customers for telecommunications companies.
+	This chatbot service is a hybrid archtecture of chatbots and human operators, labor saving and improved customer satisfaction were achieved　at the same time.
+	And also, adopting Elasticsearch as a FAQ search engine and using it in combination with other AI engines achieves a high response rate.
+I was Experienced roles on Primary Developper, Data scientist for making FAQ engine and Scrum master for the team.}
+\sepspace
+\ProjectEntry{The chatbot service for customer support(Native Apps)}{}
+{AWS, Node.js, Python}
+{As a chatbot enhancement project created in FY2018, we have made it possible to respond in the same way not only on web pages but also on customer support apps created on Android and iOS.
+	Like the previous time, it uses a Docker container and AWS managed services, and is structured to be aware of the microarchitecture.
+	In this architecture, Node.js is used as a server for Backends For Frontends in order to communicate with customers using apps using Websocket.It uses Python for Backend.
+The architecture was presented at AWS Summit Tokyo 2019.}
+%%% Awards
+%%% ------------------------------------------------------------
+\NewPart{Awards}{}
+
+\AwardEntry{Award of technology quality improvement annually}{Company}
+{2019-03-31}
+{Stable and flexible system design utilizing AWS and successfully responded to large-scale traffic without problems.}
+\ 
+\end{document}
