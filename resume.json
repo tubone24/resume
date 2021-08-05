@@ -53,7 +53,7 @@
     {
       "company": "KDDI",
       "position": "DevOps developer",
-      "website": "",
+      "website": "https://www.kddi.com/",
       "startDate": "2016-04-01",
       "endDate": "2017-03-31",
       "summary": "Developing and operating some location-based services by using on-premise servers.\nAlso develop integrated monitoring systems such as Zabbix.",
@@ -65,7 +65,7 @@
     {
       "company": "KDDI",
       "position": "Project Manager",
-      "website": "",
+      "website": "https://www.kddi.com/",
       "startDate": "2017-04-01",
       "endDate": "2017-09-30",
       "summary": "I had many experiences such as project management, team building, and handling big data. Our team created the analytics operation system with Splunk and Hadoop(MapR) Used for the company's internal log.",
@@ -79,7 +79,7 @@
     {
       "company": "KDDI",
       "position": "DevOps developer",
-      "website": "",
+      "website": "https://www.kddi.com/",
       "startDate": "2017-10-01",
       "endDate": "2019-03-31",
       "summary": "Developing and Operating Web-based Chatbot services by using AWS and Python, Node.js.\nThe architecture is applied by AWS management services such as ECS with Docker, DynamoDB, Lambda, and S3.\nAlso, creating CI/CD pipelines using by Drone and automation tests using by Pytest.",
@@ -93,7 +93,7 @@
     {
       "company": "KDDI",
       "position": "Data Engineering developer",
-      "website": "",
+      "website": "https://www.kddi.com/",
       "startDate": "2019-04-01",
       "endDate": "",
       "summary": "Developing data analysis infrastructure using AWS because of analysis of the Chat-bot's conversations.\nThe architecture is followed by Data-lake architecture.",
@@ -107,14 +107,25 @@
     {
       "company": "KDDI",
       "position": "Tech Lead",
-      "website": "",
+      "website": "https://www.kddi.com/",
       "startDate": "2019-04-01",
-      "endDate": "",
+      "endDate": "2021-07-31",
       "summary": "Senior engineer and AWS tech Lead of developing Web-based and Native App Chat-bot services by using AWS and Python, Node.js.\nThe number of Team member is over 8-10, experienced only make architect, developing but also team management, solving difficult issues, and negotiating quite a few stakeholders.",
       "highlights": [
         "My first experience of tech lead",
         "The Architecture introduced at the AWS Summit",
         "Scrum development"
+      ]
+    },
+    {
+      "company": "EventHub",
+      "position": "Developer",
+      "website": "https://eventhub.jp/",
+      "startDate": "2021-08-01",
+      "endDate": "",
+      "summary": "Application engineer of developing Web-based event matching platform by using AWS, Nest.js + React with TypeScript.",
+      "highlights": [
+        ""
       ]
     }
   ],
