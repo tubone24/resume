@@ -51,7 +51,7 @@
   },
   "work": [
     {
-      "company": "Telecommunications",
+      "company": "KDDI",
       "position": "DevOps developer",
       "website": "",
       "startDate": "2016-04-01",
@@ -63,7 +63,7 @@
       ]
     },
     {
-      "company": "Telecommunications",
+      "company": "KDDI",
       "position": "Project Manager",
       "website": "",
       "startDate": "2017-04-01",
@@ -77,7 +77,7 @@
       ]
     },
     {
-      "company": "Telecommunications",
+      "company": "KDDI",
       "position": "DevOps developer",
       "website": "",
       "startDate": "2017-10-01",
@@ -91,7 +91,7 @@
       ]
     },
     {
-      "company": "Telecommunications",
+      "company": "KDDI",
       "position": "Data Engineering developer",
       "website": "",
       "startDate": "2019-04-01",
@@ -105,7 +105,7 @@
       ]
     },
     {
-      "company": "Telecommunications",
+      "company": "KDDI",
       "position": "Tech Lead",
       "website": "",
       "startDate": "2019-04-01",
@@ -170,7 +170,7 @@
     {
       "title": "Award of technology quality improvement annually",
       "date": "2019-03-31",
-      "awarder": "Company",
+      "awarder": "KDDI",
       "summary": "Stable and flexible system design utilizing AWS and successfully responded to large-scale traffic without problems."
     }
   ],
