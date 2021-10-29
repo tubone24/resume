@@ -3,12 +3,12 @@
   "headings": {},
   "basics": {
     "name": "Yu Otsubo",
-    "label": "Server-side and Public Cloud Tech Lead",
+    "label": "Fullcycle and Public Cloud Tech Lead",
     "picture": "https://ja.gravatar.com/userimage/17597495/b60124e5de5d624501af1fb07ee5e763.jpg?size=200",
     "email": "tubo.yyyuuu@gmail.com",
     "phone": "",
     "website": "https://portfolio.tubone-project24.xyz",
-    "summary": "I'm a Software and Infrastructure developer with over 4+ years, and I've been leading some engineering teams in recent years. \nExpert at AWS by using Server-less architecture.\nAlso a master of Server-side API and Batch with Python.\nAdditionally, experienced data science with Python and AWS.\nI have lectured at AWS Summit Tokyo 19 with company booth.\nI have AWS Certified Solution Architect – Professional.",
+    "summary": "I'm a Software and Infrastructure developer with over 5+ years, and I've been leading some engineering teams in recent years. \nExpert at AWS by using Server-less architecture.\nAlso a master of Server-side API and Batch with Python.\nAdditionally, experienced data science with Python and AWS.\nI have lectured at AWS Summit Tokyo 19 with company booth.\nI have AWS Certified Solution Architect – Professional.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -119,7 +119,7 @@
     },
     {
       "company": "EventHub",
-      "position": "Developer",
+      "position": "Development Team Leader",
       "website": "https://eventhub.jp/",
       "startDate": "2021-08-01",
       "endDate": "",
