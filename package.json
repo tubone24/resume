@@ -16,7 +16,7 @@
   "license": "MIT",
   "main": "index.ts",
   "dependencies": {
-    "@types/node": "^16.11.11",
+    "@types/node": "^17.0.18",
     "handlebars": "^4.7.7",
     "jsonresume-theme-stackoverflow": "^1.4.0",
     "moment": "^2.29.1",
