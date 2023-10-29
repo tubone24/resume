@@ -119,15 +119,30 @@
     },
     {
       "company": "EventHub",
-      "position": "Development Team Leader",
+      "position": "Development Group Leader",
       "website": "https://eventhub.jp/",
       "startDate": "2021-08-01",
       "endDate": "",
       "summary": "Application engineer of developing Web-based event matching platform by using AWS, Nest.js + React with TypeScript.",
       "highlights": [
-        "My first authentic full stack developing."
+        "Engaged in the full cycle of planning, requirement definition, development, QA, and operation as a full cycle engineer.",
+        "Formulate and execute missions and projects for the Product Infrastructure team as Development Manager.",
+        "Engaged in the development of a pseudo-live function for live delivery of pre-recorded videos as a video delivery platform/API infrastructure for external collaboration."
       ]
-    }
+    },
+    {
+      "company": "Michibiku",
+      "position": "SRE Engineer",
+      "website": "https://michibiku.co.jp/",
+      "startDate": "2022-09-01",
+      "endDate": "",
+      "summary": "As an SRE Engineer, improved continuous development processes using CDK, GitHub Actions, and Autify.",
+      "highlights": [
+        "Joined as SRE engineer to build and improve CI/CD pipeline/infrastructure (AWS).",
+        "Migration of services built on EC2 to ECS/Fargate while building Blue/Green deployment mechanism.",
+        "Expansion of automated testing using Autify and development of execution pipeline to improve efficiency of QA operations."
+      ]
+    },
   ],
   "volunteer": [],
   "education": [
