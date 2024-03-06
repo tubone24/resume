@@ -8,7 +8,7 @@
     "email": "tubo.yyyuuu@gmail.com",
     "phone": "",
     "website": "https://portfolio.tubone-project24.xyz",
-    "summary": "I'm a Software and Infrastructure developer with over 6+ years, and I've been leading some engineering teams in recent years. \nExpert at AWS by using Server-less architecture.\nAlso a master of Server-side API and Batch with Python.\nAdditionally, experienced data science with Python and AWS.\nI have lectured at AWS Summit Tokyo 19 with company booth.\nI have AWS Certified Solution Architect – Professional.",
+    "summary": "I'm a Software and Infrastructure developer with over 8+ years, and I've been leading some engineering teams in recent years. \nExpert at AWS by using Server-less architecture.\nAlso a master of Server-side API and Batch with Python.\nAdditionally, experienced data science with Python and AWS.\nI have lectured at AWS Summit Tokyo 19 with company booth.\nI have AWS Certified Solution Architect – Professional.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -122,7 +122,7 @@
       "position": "Development Group Leader",
       "website": "https://eventhub.jp/",
       "startDate": "2021-08-01",
-      "endDate": "",
+      "endDate": "2024-01-30",
       "summary": "Application engineer of developing Web-based event matching platform by using AWS, Nest.js + React with TypeScript.",
       "highlights": [
         "Engaged in the full cycle of planning, requirement definition, development, QA, and operation as a full cycle engineer.",
@@ -143,6 +143,16 @@
         "Expansion of automated testing using Autify and development of execution pipeline to improve efficiency of QA operations."
       ]
     },
+        {
+      "company": "KDDI Agile Development Center",
+      "position": "Data Engineer",
+      "website": "https://kddi-agile.com/",
+      "startDate": "2024-02-01",
+      "endDate": "",
+      "summary": "Developing Data Clean Room with Snowflake and AWS.",
+      "highlights": [
+      ]
+    }
   ],
   "volunteer": [],
   "education": [
