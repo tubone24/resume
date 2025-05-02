@@ -8,7 +8,7 @@
     "email": "tubo.yyyuuu@gmail.com",
     "phone": "",
     "website": "https://portfolio.tubone-project24.xyz",
-    "summary": "I'm a Software and Infrastructure developer with over 8+ years, and I've been leading some engineering teams in recent years. \nExpert at AWS by using Server-less architecture.\nAlso a master of Server-side API and Batch with Python.\nAdditionally, experienced data science with Python and AWS.\nI have lectured at AWS Summit Tokyo 19 with company booth.\nI have AWS Certified Solution Architect – Professional.",
+    "summary": "I'm a Software and Infrastructure developer with over 9+ years, and I've been leading some engineering teams in recent years. \nExpert at AWS by using Server-less architecture.\nAlso a master of Server-side API and Batch with Python.\nAdditionally, experienced data science with Python and AWS.\nI have lectured at AWS Summit Tokyo 19 with company booth.\nI have AWS Certified Solution Architect – Professional.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -25,7 +25,7 @@
       {
         "network": "SlideShare",
         "username": "tubone24",
-        "url": "https://www.slideshare.net/tubone24"
+        "url": "https://slide-tubone24.pages.dev/"
       },
       {
         "network": "GitHub",
@@ -43,9 +43,9 @@
         "url": "https://www.facebook.com/yu.otsubo"
       },
       {
-        "network": "500px",
-        "username": "tubone24",
-        "url": "https://500px.com/tubone24"
+        "network": "Instagram",
+        "username": "mugimugi.cutedog",
+        "url": "https://www.instagram.com/mugimugi.cutedog/"
       }
     ]
   },
@@ -145,12 +145,13 @@
     },
         {
       "company": "KDDI Agile Development Center",
-      "position": "Data Engineer",
+      "position": "LLM App developer & Tech Lead",
       "website": "https://kddi-agile.com/",
       "startDate": "2024-02-01",
       "endDate": "",
-      "summary": "Developing Data Clean Room with Snowflake and AWS.",
+      "summary": "I develop AI agent applications leveraging generative AI technologies.",
       "highlights": [
+        "Currently serving as the development lead for \"A-BOSS\" an AI agent created specifically for sales organizations."
       ]
     }
   ],
