@@ -363,6 +363,33 @@
       "url": "https://www.au.com/support/inquiry/message/",
       "entity": "KDDI CORPORATION",
       "type": "Chat-bot"
+    },
+    {
+      "name": "A-BOSS (AI Business Department Manager)",
+      "description": "Developed an advanced AI agent called A-BOSS that functions as a virtual department manager to support sales activities at KDDI. The system automatically reviews business proposals from a department manager's perspective and provides comprehensive support across all aspects of sales operations. Built on Amazon Bedrock with Agentic Workflow technology, A-BOSS represents a production implementation of LLMOps (Large Language Model Operations). The system features adaptive learning capabilities that allow it to become increasingly intelligent with continued usage.",
+      "highlights": [
+    "Developed an AI agent that provides department manager-level guidance to sales teams",
+    "Implemented Amazon Bedrock with Agentic Workflow architecture",
+    "Created a production-grade LLMOps system with continuous learning capabilities",
+    "Integrated with existing sales support systems for seamless workflow",
+    "Featured in KDDI's official corporate communications"
+      ],
+      "keywords": [    "Amazon Bedrock",
+    "LLMOps",
+    "Generative AI",
+    "AI Agent",
+    "Sales Support System"
+      ],
+      "startDate": "2018-10-01",
+      "endDate": "2022-03-31",
+      "roles": [
+    "AI Solution Architect",
+    "Technical Lead",
+    "LLMOps Engineer"
+      ],
+      "url": "https://www.youtube.com/watch?v=qxUbeFSupAc",
+      "entity": "KDDI CORPORATION",
+      "type": "AI Agent"
     }
   ],
   "meta": {
