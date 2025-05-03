@@ -336,7 +336,7 @@
         "Scrum master"
       ],
       "url": "https://www.au.com/support/inquiry/message/",
-      "entity": "",
+      "entity": "KDDI CORPORATION",
       "type": "Chat-bot"
     },
     {
@@ -353,7 +353,7 @@
         "Python"
       ],
       "startDate": "2018-10-01",
-      "endDate": "",
+      "endDate": "2022-03-31",
       "roles": [
         "Architect",
         "Tech Lead",
@@ -361,7 +361,7 @@
         "Scrum master"
       ],
       "url": "https://www.au.com/support/inquiry/message/",
-      "entity": "",
+      "entity": "KDDI CORPORATION",
       "type": "Chat-bot"
     }
   ],
