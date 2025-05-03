@@ -258,7 +258,7 @@
         "PostgreSQL",
         "ClickHouse",
         "Snowflake",
-        "Presto with Hadoop",
+        "Presto with Hadoop"
       ]
     },
     {
