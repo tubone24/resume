@@ -217,7 +217,6 @@
       "name": "AWS",
       "level": "Master",
       "keywords": [
-        "EC2",
         "Lambda",
         "ECS",
         "DynamoDB",
@@ -226,91 +225,40 @@
         "Athena",
         "S3",
         "Glue",
-        "ElasticBeanStalk",
-        "Terraform",
-        "Packer"
+        "Terraform"
       ]
     },
     {
-      "name": "OS/Network/Security",
+      "name": "Backend Develop",
       "level": "Master",
       "keywords": [
-        "MacOS",
-        "CentOS",
-        "Debian(Ubuntu)",
-        "OpenVPN",
-        "TCP/UDP",
-        "KVM",
-        "Hyper-v",
-        "Docker",
-        "nmap",
-        "Wireshark",
-        "Burp"
+        "FastAPI(Python)",
+        "Nest.js(TypeScript)",
+        "SpringBoot(Java)",
+        "Echo(Go)"
+      ]
+    },
+    {
+      "name": "Frontend Develop",
+      "level": "Advanced",
+      "keywords": [
+        "React.js",
+        "Next.js",
+        "Gatsby.js",
+        "Astro",
+        "Vue.js",
+        "Nuxt.js"
       ]
     },
     {
       "name": "Database",
       "level": "Advanced",
       "keywords": [
-        "SQL",
         "MySQL",
-        "RDS(Aurora)",
-        "Oracle 11g",
+        "PostgreSQL",
+        "ClickHouse",
+        "Snowflake",
         "Presto with Hadoop",
-        "Hive with Hadoop"
-      ]
-    },
-    {
-      "name": "Server-side Develop",
-      "level": "Advanced",
-      "keywords": [
-        "Django(Python)",
-        "Flask(Python)",
-        "Responder(Python)",
-        "SpringBoot(Java)",
-        "Echo(Go)"
-      ]
-    },
-    {
-      "name": "Automated Test",
-      "level": "Advanced",
-      "keywords": [
-        "Pytest",
-        "Jest",
-        "Selenium"
-      ]
-    },
-    {
-      "name": "CI/CD",
-      "level": "Advanced",
-      "keywords": [
-        "Jenkins",
-        "CircleCI",
-        "Drone",
-        "Azure Develop Pipeline",
-        "Travis",
-        "Appvoyeur",
-        "GitHub Actions"
-      ]
-    },
-    {
-      "name": "Business Intelligence",
-      "level": "Advanced",
-      "keywords": [
-        "Tableau",
-        "QuickSight",
-        "Elasticsearch with Kibana",
-        "Dash by plotyJs"
-      ]
-    },
-    {
-      "name": "Web Develop",
-      "level": "Intermediate",
-      "keywords": [
-        "Vue.js with Typescript, Vuex",
-        "Bootstrap4",
-        "Gatsby.js",
-        "JQuery"
       ]
     },
     {
@@ -387,7 +335,7 @@
         "Data scientist for making FAQ engine",
         "Scrum master"
       ],
-      "url": "",
+      "url": "https://www.au.com/support/inquiry/message/",
       "entity": "",
       "type": "Chat-bot"
     },
@@ -412,7 +360,7 @@
         "Primary Developer",
         "Scrum master"
       ],
-      "url": "",
+      "url": "https://www.au.com/support/inquiry/message/",
       "entity": "",
       "type": "Chat-bot"
     }
