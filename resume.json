@@ -3,24 +3,24 @@
   "headings": {},
   "basics": {
     "name": "Yu Otsubo",
-    "label": "Fullcycle and Public Cloud Tech Lead",
+    "label": "Fullcycle Tech Lead",
     "picture": "https://ja.gravatar.com/userimage/17597495/b60124e5de5d624501af1fb07ee5e763.jpg?size=200",
     "email": "tubo.yyyuuu@gmail.com",
     "phone": "",
     "website": "https://portfolio.tubone-project24.xyz",
-    "summary": "I'm a Software and Infrastructure developer with over 9+ years, and I've been leading some engineering teams in recent years. \nExpert at AWS by using Server-less architecture.\nAlso a master of Server-side API and Batch with Python.\nAdditionally, experienced data science with Python and AWS.\nI have lectured at AWS Summit Tokyo 19 with company booth.\nI have AWS Certified Solution Architect – Professional.",
+    "summary": "I'm a Software and Infrastructure developer with over 9+ years, and I've been leading some engineering teams in recent years. \nExpert at AWS by using Server-less architecture.\nAlso a master of Server-side API and Batch with Python.\nAdditionally, experienced data science with Python and AWS.\nI have lectured at AWS Summit Tokyo 19 with company booth.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Tokyo",
+      "city": "Kawasaki",
       "countryCode": "JA",
-      "region": "Tokyo"
+      "region": "Kanagawa"
     },
     "profiles": [
       {
         "network": "Twitter",
-        "username": "meitante1conan",
-        "url": "https://twitter.com/meitante1conan"
+        "username": "tubone24",
+        "url": "https://twitter.com/tubone24"
       },
       {
         "network": "SlideShare",
@@ -31,11 +31,6 @@
         "network": "GitHub",
         "username": "tubone24",
         "url": "https://github.com/tubone24"
-      },
-      {
-        "network": "SoundCloud",
-        "username": "user-453736300",
-        "url": "https://soundcloud.com/user-453736300"
       },
       {
         "network": "Facebook",
@@ -211,7 +206,22 @@
       "summary": "Stable and flexible system design utilizing AWS and successfully responded to large-scale traffic without problems."
     }
   ],
-  "publications": [],
+  "publications": [
+    {
+    "name": "KAG Tech Book -Vol1-",
+    "publisher": "KAG",
+    "releaseDate": "2025-05-30",
+    "url": "https://techbookfest.org/product/7YEcq5ZEqMrcn7syzVhcdQ?productVariantID=wF6srZpi5e0UeE47fFgKT6",
+    "summary": "This book was written by volunteers from KDDI Agile Development Center, Inc. Each of them brought their experiences and knowledge gained while working on different sites and products, and compiled their practices and learnings as a team into a single book.As a result, the content of this book is not limited to a single point of view, but is a mixture of various approaches and ways of thinking. We would be more than happy if any of the chapters could be a hint for the challenges you are facing now or will be tackling in the future."
+  },
+        {
+    "name": "やさしいMCP入門",
+    "publisher": "秀和システム",
+    "releaseDate": "2025-07-01",
+    "url": "https://www.amazon.co.jp/%E3%82%84%E3%81%95%E3%81%97%E3%81%84MCP%E5%85%A5%E9%96%80-%E5%BE%A1%E7%94%B0%E7%A8%94/dp/4798075736",
+    "summary": "AIエージェント時代の標準規格MCP(モデル コンテキスト プロトコル)の入門書。大バズりしたスライド「やさしいMCP入門」の著者が新技術の基礎をやさしく解説。"
+  }
+  ],
   "skills": [
     {
       "name": "AWS",
@@ -394,7 +404,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/tubone24/resume-json-data/master/resume.json",
-    "version": "v1.1.1",
-    "lastModified": "2020-07-06T00:00:00"
+    "version": "v1.2.0",
+    "lastModified": "2025-06-01T00:00:00"
   }
 }
