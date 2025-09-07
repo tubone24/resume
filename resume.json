@@ -224,7 +224,7 @@
       {
     "name": "AIエージェント開発 / 運用入門 [生成AI深掘りガイド]",
     "publisher": "SBクリエイティブ",
-    "releaseDate": "2025-07-01",
+    "releaseDate": "2025-10-01",
     "url": "https://amzn.asia/d/7lIdXTx",
     "summary": "Learn everything about AI agents—the basics, how to build them, and how to use them—all in one book!This comprehensive introductory guide thoroughly explains the fundamentals of AI agents, the hot topic of recent years, step by step from the very basics. It covers essential foundational knowledge, how to build AI agents, real-world use cases, and even Large Language Models (LLMs), which are indispensable when discussing AI agents. The authors are three leading experts in AI application development: Minoru Oda (Tech Evangelist, KDDI Agile Development Center), Yu Otsubo (Software Engineer, KDDI Agile Development Center), and Maki Tsukada (Engineer, AI Strategy Project Group, Mitsubishi Electric). Together, they provide a comprehensive guide covering everything from the fundamentals of LLMs and generative AI to cutting-edge use cases and the latest API implementation methods. The book also provides detailed guidance on how to actually develop AI agents. Reading this book allows you to master the fundamentals of Amazon Bedrock, Claude, LangChain, and LangGraph, enabling you to broadly and thoroughly learn the key technologies for AI agent development. Furthermore, the latter part of the book introduces practical techniques usable in real development environments. It covers AI agent development methods using the recently popular “Mastra” (an AI development framework) and explains post-development operational phase techniques (LLMOps) using Langfuse, taking you directly to a practical level."
   }
