@@ -214,12 +214,19 @@
     "url": "https://techbookfest.org/product/7YEcq5ZEqMrcn7syzVhcdQ?productVariantID=wF6srZpi5e0UeE47fFgKT6",
     "summary": "This book was written by volunteers from KDDI Agile Development Center, Inc. Each of them brought their experiences and knowledge gained while working on different sites and products, and compiled their practices and learnings as a team into a single book.As a result, the content of this book is not limited to a single point of view, but is a mixture of various approaches and ways of thinking. We would be more than happy if any of the chapters could be a hint for the challenges you are facing now or will be tackling in the future."
   },
-        {
+  {
     "name": "やさしいMCP入門",
     "publisher": "秀和システム",
     "releaseDate": "2025-07-01",
-    "url": "https://www.amazon.co.jp/%E3%82%84%E3%81%95%E3%81%97%E3%81%84MCP%E5%85%A5%E9%96%80-%E5%BE%A1%E7%94%B0%E7%A8%94/dp/4798075736",
-    "summary": "AIエージェント時代の標準規格MCP(モデル コンテキスト プロトコル)の入門書。大バズりしたスライド「やさしいMCP入門」の著者が新技術の基礎をやさしく解説。"
+    "url": "https://amzn.asia/d/7UuQEB0",
+    "summary": "An introductory guide to MCP (Model Context Protocol), the standard for the AI agent era. The author of the wildly popular slides “Gentle Introduction to MCP” gently explains the fundamentals of this new technology."
+  },
+      {
+    "name": "AIエージェント開発 / 運用入門 [生成AI深掘りガイド]",
+    "publisher": "SBクリエイティブ",
+    "releaseDate": "2025-07-01",
+    "url": "https://amzn.asia/d/7lIdXTx",
+    "summary": "Learn everything about AI agents—the basics, how to build them, and how to use them—all in one book!This comprehensive introductory guide thoroughly explains the fundamentals of AI agents, the hot topic of recent years, step by step from the very basics. It covers essential foundational knowledge, how to build AI agents, real-world use cases, and even Large Language Models (LLMs), which are indispensable when discussing AI agents. The authors are three leading experts in AI application development: Minoru Oda (Tech Evangelist, KDDI Agile Development Center), Yu Otsubo (Software Engineer, KDDI Agile Development Center), and Maki Tsukada (Engineer, AI Strategy Project Group, Mitsubishi Electric). Together, they provide a comprehensive guide covering everything from the fundamentals of LLMs and generative AI to cutting-edge use cases and the latest API implementation methods. The book also provides detailed guidance on how to actually develop AI agents. Reading this book allows you to master the fundamentals of Amazon Bedrock, Claude, LangChain, and LangGraph, enabling you to broadly and thoroughly learn the key technologies for AI agent development. Furthermore, the latter part of the book introduces practical techniques usable in real development environments. It covers AI agent development methods using the recently popular “Mastra” (an AI development framework) and explains post-development operational phase techniques (LLMOps) using Langfuse, taking you directly to a practical level."
   }
   ],
   "skills": [
