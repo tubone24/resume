@@ -2,35 +2,70 @@
   "selectedTemplate": 9,
   "headings": {},
   "basics": {
-    "name": "Yu Otsubo",
-    "label": "Fullcycle Tech Lead",
+    "name": "Yu Otsubo (大坪 悠)",
+    "label": "AI Development Lead / Software Engineer",
     "picture": "https://ja.gravatar.com/userimage/17597495/b60124e5de5d624501af1fb07ee5e763.jpg?size=200",
     "email": "tubo.yyyuuu@gmail.com",
     "phone": "",
     "website": "https://portfolio.tubone-project24.xyz",
-    "summary": "I'm a Software and Infrastructure developer with over 9+ years, and I've been leading some engineering teams in recent years. \nExpert at AWS by using Server-less architecture.\nAlso a master of Server-side API and Batch with Python.\nAdditionally, experienced data science with Python and AWS.\nI have lectured at AWS Summit Tokyo 19 with company booth.",
+    "summary": "Software and Infrastructure developer with 9+ years of experience, currently leading engineering teams with a focus on generative AI and AI agent development. AWS Certified Solutions Architect - Professional with deep expertise in serverless architecture and production-level AI systems. Published 3 technical books in 2025 on MCP and AI agents. Led development of A-BOSS, a production AI agent serving 700+ users at KDDI. Camera and music-loving web developer who is also an amateur DTM composer and guitarist. Active open source contributor with 190+ GitHub repositories.",
     "location": {
       "address": "",
       "postalCode": "",
       "city": "Kawasaki",
-      "countryCode": "JA",
+      "countryCode": "JP",
       "region": "Kanagawa"
     },
     "profiles": [
       {
-        "network": "Twitter",
+        "network": "GitHub",
         "username": "tubone24",
-        "url": "https://twitter.com/tubone24"
+        "url": "https://github.com/tubone24"
+      },
+      {
+        "network": "Twitter/X",
+        "username": "tubone24",
+        "url": "https://x.com/tubone24"
+      },
+      {
+        "network": "Blog",
+        "username": "tubone24",
+        "url": "https://blog.tubone-project24.xyz/"
+      },
+      {
+        "network": "Speaker Deck",
+        "username": "tubone24",
+        "url": "https://speakerdeck.com/tubone24"
       },
       {
         "network": "SlideShare",
         "username": "tubone24",
-        "url": "https://slide-tubone24.pages.dev/"
+        "url": "https://www.slideshare.net/tubone24"
       },
       {
-        "network": "GitHub",
+        "network": "Qiita",
+        "username": "tubone",
+        "url": "https://qiita.com/tubone"
+      },
+      {
+        "network": "DEV Community",
         "username": "tubone24",
-        "url": "https://github.com/tubone24"
+        "url": "https://dev.to/tubone24"
+      },
+      {
+        "network": "Connpass",
+        "username": "tubone24",
+        "url": "https://connpass.com/user/tubone24/"
+      },
+      {
+        "network": "Misskey",
+        "username": "tubone24",
+        "url": "https://misskey.io/@tubone24"
+      },
+      {
+        "network": "SoundCloud",
+        "username": "tubone24",
+        "url": "https://soundcloud.com/user-453736300"
       },
       {
         "network": "Facebook",
@@ -46,115 +81,171 @@
   },
   "work": [
     {
-      "company": "KDDI",
-      "position": "DevOps developer",
-      "website": "https://www.kddi.com/",
-      "startDate": "2016-04-01",
-      "endDate": "2017-03-31",
-      "summary": "Developing and operating some location-based services by using on-premise servers.\nAlso develop integrated monitoring systems such as Zabbix.",
+      "company": "KDDI Agile Development Center Inc.",
+      "position": "Software Engineer / AI Development Lead",
+      "website": "https://kddi-agile.com/",
+      "startDate": "2024-02-01",
+      "endDate": "",
+      "summary": "Leading generative AI application development with focus on AI agents. Development lead for A-BOSS (AI Business Department Manager) serving 700+ users. Published 3 technical books in 2025. Contributing to AWS Japan Official Blog and providing training as KAGAI Learning Hub instructor.",
       "highlights": [
-        "Started the company",
-        "Integrate monitoring and operation system using by Zabbix and Expect"
+        "Development lead for A-BOSS - AI agent for KDDI corporate sales, serving 700+ users with 10 hours/month efficiency gain per user",
+        "Built 議事録パックン (Minutes Pakkun) - comprehensive sales support tool with meeting transcription and proposal generation",
+        "Deployed かぐたん (Kagutan) - secure internal AI chatbot to 1,200 users across 4 companies with ~2,000 monthly requests",
+        "Co-authored 3 technical books: 'やさしいMCP入門', 'AIエージェント開発/運用入門', and 'KAG Tech Book Vol.1'",
+        "Featured in AWS Japan Official Blog for A-BOSS case study",
+        "Instructor at KAGAI Learning Hub for GenAI and AI agent training",
+        "Active speaker at technical conferences including NW-JAWS and Langfuse Night",
+        "Currently on parental leave (Sep 2025 - Apr 2026) while continuing technical activities"
       ]
     },
     {
-      "company": "KDDI",
+      "company": "Startup Company (Michibiku Inc.)",
+      "position": "SRE Engineer",
+      "website": "https://michibiku.co.jp/",
+      "startDate": "2023-09-01",
+      "endDate": "2024-01-30",
+      "summary": "As an SRE Engineer, improved continuous development processes using AWS CDK, GitHub Actions, and Autify.",
+      "highlights": [
+        "Built and improved CI/CD pipeline and infrastructure on AWS",
+        "Migrated services from EC2 to ECS/Fargate with Blue/Green deployment",
+        "Expanded automated testing using Autify and developed execution pipeline for QA efficiency"
+      ]
+    },
+    {
+      "company": "KDDI Corporation (EventHub Division)",
+      "position": "Application Engineer / Development Manager",
+      "website": "https://www.kddi.com/",
+      "startDate": "2018-08-01",
+      "endDate": "2023-08-31",
+      "summary": "Full-cycle engineer for Web-based event matching platform using AWS, Nest.js, and React with TypeScript. Development Manager for Product Infrastructure team.",
+      "highlights": [
+        "Developed pseudo-live function for pre-recorded video live streaming",
+        "Built video distribution platform and API infrastructure for external collaboration",
+        "Developed public API platform and MA/SFA integration (Marketo/Salesforce connectors)",
+        "Created Data Clean Room with Snowflake and AWS",
+        "Led Product Infrastructure team mission formulation and execution",
+        "Accelerated CI/CD and maintained E2E tests for engineering team support",
+        "Introduced FaaS migration and Blue/Green deployment"
+      ]
+    },
+    {
+      "company": "KDDI Corporation",
+      "position": "Tech Lead / Senior Engineer",
+      "website": "https://www.kddi.com/",
+      "startDate": "2019-04-01",
+      "endDate": "2021-07-31",
+      "summary": "Tech Lead and AWS architect for Web-based and Native App chatbot services. Led team of 8-10 members with responsibilities spanning architecture, development, team management, and stakeholder negotiation.",
+      "highlights": [
+        "First experience as tech lead",
+        "Architecture featured at AWS Summit Tokyo 2019",
+        "Managed 8-10 member team",
+        "Scrum development methodology"
+      ]
+    },
+    {
+      "company": "KDDI Corporation",
+      "position": "Data Engineering Developer",
+      "website": "https://www.kddi.com/",
+      "startDate": "2017-10-01",
+      "endDate": "2019-03-31",
+      "summary": "Developed data analysis infrastructure for chatbot conversation analysis. Implemented Data-lake architecture with serverless Lambda Python and Pandas.",
+      "highlights": [
+        "Data-lake Architecture using AWS",
+        "Serverless with Lambda Python",
+        "Pandas data analysis",
+        "Scrum development"
+      ]
+    },
+    {
+      "company": "KDDI Corporation",
+      "position": "Backend/DevOps Engineer",
+      "website": "https://www.kddi.com/",
+      "startDate": "2016-10-01",
+      "endDate": "2017-09-30",
+      "summary": "Developed and operated Web-based chatbot services using AWS, Python, and Node.js. Architecture featured ECS with Docker, DynamoDB, Lambda, and S3.",
+      "highlights": [
+        "First experience using AWS",
+        "First experience using Python and Node.js",
+        "Serverless architecture implementation",
+        "CI/CD with Drone and Pytest",
+        "Lectured at AWS Summit Tokyo 2019 company booth",
+        "Scrum development"
+      ]
+    },
+    {
+      "company": "KDDI Corporation",
       "position": "Project Manager",
       "website": "https://www.kddi.com/",
       "startDate": "2017-04-01",
       "endDate": "2017-09-30",
-      "summary": "I had many experiences such as project management, team building, and handling big data. Our team created the analytics operation system with Splunk and Hadoop(MapR) Used for the company's internal log.",
+      "summary": "Led analytics operation system development using Splunk and Hadoop (MapR) for internal log analysis.",
       "highlights": [
-        "Project management",
-        "Team building",
-        "Use Splunk",
-        "Hadoop(MapR)"
+        "Project management and team building",
+        "Big data handling with Splunk and Hadoop (MapR)",
+        "Internal log analytics operation system"
       ]
     },
     {
-      "company": "KDDI",
-      "position": "DevOps developer",
+      "company": "KDDI Corporation",
+      "position": "System Engineer / DevOps",
       "website": "https://www.kddi.com/",
-      "startDate": "2017-10-01",
-      "endDate": "2019-03-31",
-      "summary": "Developing and Operating Web-based Chatbot services by using AWS and Python, Node.js.\nThe architecture is applied by AWS management services such as ECS with Docker, DynamoDB, Lambda, and S3.\nAlso, creating CI/CD pipelines using by Drone and automation tests using by Pytest.",
+      "startDate": "2016-04-01",
+      "endDate": "2017-03-31",
+      "summary": "Developed and operated location-based services using on-premise servers. Built integrated monitoring system with Zabbix.",
       "highlights": [
-        "First experience using AWS",
-        "First experience using Python and Node.js",
-        "Server-less architecture",
-        "Scrum development"
-      ]
-    },
-    {
-      "company": "KDDI",
-      "position": "Data Engineering developer",
-      "website": "https://www.kddi.com/",
-      "startDate": "2019-04-01",
-      "endDate": "",
-      "summary": "Developing data analysis infrastructure using AWS because of analysis of the Chat-bot's conversations.\nThe architecture is followed by Data-lake architecture.",
-      "highlights": [
-        "Data-lake Architecture using AWS",
-        "Server-less with Lambda Python",
-        "Pandas",
-        "Scrum development"
-      ]
-    },
-    {
-      "company": "KDDI",
-      "position": "Tech Lead",
-      "website": "https://www.kddi.com/",
-      "startDate": "2019-04-01",
-      "endDate": "2021-07-31",
-      "summary": "Senior engineer and AWS tech Lead of developing Web-based and Native App Chat-bot services by using AWS and Python, Node.js.\nThe number of Team member is over 8-10, experienced only make architect, developing but also team management, solving difficult issues, and negotiating quite a few stakeholders.",
-      "highlights": [
-        "My first experience of tech lead",
-        "The Architecture introduced at the AWS Summit",
-        "Scrum development"
-      ]
-    },
-    {
-      "company": "EventHub",
-      "position": "Development Group Leader",
-      "website": "https://eventhub.jp/",
-      "startDate": "2021-08-01",
-      "endDate": "2024-01-30",
-      "summary": "Application engineer of developing Web-based event matching platform by using AWS, Nest.js + React with TypeScript.",
-      "highlights": [
-        "Engaged in the full cycle of planning, requirement definition, development, QA, and operation as a full cycle engineer.",
-        "Formulate and execute missions and projects for the Product Infrastructure team as Development Manager.",
-        "Engaged in the development of a pseudo-live function for live delivery of pre-recorded videos as a video delivery platform/API infrastructure for external collaboration."
-      ]
-    },
-    {
-      "company": "Michibiku",
-      "position": "SRE Engineer",
-      "website": "https://michibiku.co.jp/",
-      "startDate": "2022-09-01",
-      "endDate": "",
-      "summary": "As an SRE Engineer, improved continuous development processes using CDK, GitHub Actions, and Autify.",
-      "highlights": [
-        "Joined as SRE engineer to build and improve CI/CD pipeline/infrastructure (AWS).",
-        "Migration of services built on EC2 to ECS/Fargate while building Blue/Green deployment mechanism.",
-        "Expansion of automated testing using Autify and development of execution pipeline to improve efficiency of QA operations."
-      ]
-    },
-        {
-      "company": "KDDI Agile Development Center",
-      "position": "LLM App developer & Tech Lead",
-      "website": "https://kddi-agile.com/",
-      "startDate": "2024-02-01",
-      "endDate": "",
-      "summary": "I develop AI agent applications leveraging generative AI technologies.",
-      "highlights": [
-        "Currently serving as the development lead for \"A-BOSS\" an AI agent created specifically for sales organizations."
+        "Location-based service development and operation",
+        "Integrated monitoring system with Zabbix and Expect automation",
+        "First professional engineering role"
       ]
     }
   ],
-  "volunteer": [],
+  "volunteer": [
+    {
+      "organization": "Langfuse JP同好会",
+      "position": "Community Member",
+      "website": "https://connpass.com/",
+      "startDate": "2024-01-01",
+      "endDate": "",
+      "summary": "Active participant in Japanese Langfuse community, sharing LLMOps knowledge and best practices.",
+      "highlights": [
+        "Speaker at Langfuse Night #1 (Nov 2024): 'Langfuse v3 使ってますか?'",
+        "Developed langfuse-v3-terraform module for AWS deployment",
+        "Published blog posts on cost-effective Langfuse operation"
+      ]
+    },
+    {
+      "organization": "KAGAI Learning Hub",
+      "position": "Instructor",
+      "website": "https://kddi-agile.com",
+      "startDate": "2025-01-01",
+      "endDate": "",
+      "summary": "Providing enterprise training on generative AI and AI agent development.",
+      "highlights": [
+        "Corporate training on GenAI application development",
+        "AI agent architecture and LLMOps workshops",
+        "Sharing production-level implementation knowledge"
+      ]
+    },
+    {
+      "organization": "Open Source Community",
+      "position": "Active Contributor",
+      "website": "https://github.com/tubone24",
+      "startDate": "2016-01-01",
+      "endDate": "",
+      "summary": "Maintaining 190+ public repositories with focus on developer productivity tools and AI agent ecosystem.",
+      "highlights": [
+        "Created midi-mcp-server (16 stars) - MCP server for MIDI generation",
+        "Developed mcp-prompts - MCP server for prompt template management",
+        "Built langfuse-v3-terraform - Terraform module for Langfuse v3 on AWS",
+        "Maintained portfolio and blog sites with 100% Lighthouse scores",
+        "Created developer tools: ebook_homebrew, update_release, npm_profile_card"
+      ]
+    }
+  ],
   "education": [
     {
       "institution": "Waseda University",
-      "area": "Department of education",
+      "area": "Department of Education",
       "studyType": "Bachelor",
       "startDate": "2012-04-01",
       "endDate": "2016-03-31",
@@ -167,7 +258,7 @@
     },
     {
       "institution": "Waseda University",
-      "area": "Software engineering (Sub-major)",
+      "area": "Software Engineering (Sub-major)",
       "studyType": "Sub-major",
       "startDate": "2012-04-01",
       "endDate": "2016-03-31",
@@ -180,83 +271,146 @@
         "Java",
         "Unix/Linux",
         "UML/Design Pattern",
-        "Multimedia(Adobe PhotoShop/AfterEffects/Premier)"
+        "Multimedia (Adobe PhotoShop/AfterEffects/Premier)"
       ]
     },
     {
       "institution": "Waseda University",
-      "area": "Data analysis (Sub-major)",
+      "area": "Data Analysis (Sub-major)",
       "studyType": "Sub-major",
       "startDate": "2012-04-01",
       "endDate": "2016-03-31",
       "gpa": "",
       "courses": [
-        "Database(MySQL, Oracle)",
+        "Database (MySQL, Oracle)",
         "R",
-        "Multivariate analysis ",
+        "Multivariate analysis",
         "Social statistics"
       ]
+    },
+    {
+      "institution": "Niigata Prefectural Nagaoka High School",
+      "area": "General Education",
+      "studyType": "High School Diploma",
+      "startDate": "2009-04-01",
+      "endDate": "2012-03-31",
+      "gpa": "",
+      "courses": []
     }
   ],
   "awards": [
     {
-      "title": "Award of technology quality improvement annually",
+      "title": "AWS Summit Tokyo 2019 - Featured Speaker",
+      "date": "2019-06-12",
+      "awarder": "Amazon Web Services / KDDI Corporation",
+      "summary": "Lectured at company booth on chatbot architecture using AWS services. Presented serverless architecture with ECS, DynamoDB, and Lambda."
+    },
+    {
+      "title": "KDDI-BX Project Achievement",
+      "date": "2024-12-31",
+      "awarder": "KDDI Corporation",
+      "summary": "A-BOSS project contributed to 46,939 hours/year saved across KDDI-BX initiative. Generated 10 hours/month efficiency per user for 700+ sales staff."
+    },
+    {
+      "title": "Award of Technology Quality Improvement",
       "date": "2019-03-31",
-      "awarder": "KDDI",
+      "awarder": "KDDI Corporation",
       "summary": "Stable and flexible system design utilizing AWS and successfully responded to large-scale traffic without problems."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "AWS Certified Solutions Architect - Professional",
+      "date": "Active",
+      "issuer": "Amazon Web Services",
+      "url": "https://aws.amazon.com/certification/"
     }
   ],
   "publications": [
     {
-    "name": "KAG Tech Book -Vol1-",
-    "publisher": "KAG",
-    "releaseDate": "2025-05-30",
-    "url": "https://techbookfest.org/product/7YEcq5ZEqMrcn7syzVhcdQ?productVariantID=wF6srZpi5e0UeE47fFgKT6",
-    "summary": "This book was written by volunteers from KDDI Agile Development Center, Inc. Each of them brought their experiences and knowledge gained while working on different sites and products, and compiled their practices and learnings as a team into a single book.As a result, the content of this book is not limited to a single point of view, but is a mixture of various approaches and ways of thinking. We would be more than happy if any of the chapters could be a hint for the challenges you are facing now or will be tackling in the future."
-  },
-  {
-    "name": "やさしいMCP入門",
-    "publisher": "秀和システム",
-    "releaseDate": "2025-07-01",
-    "url": "https://amzn.asia/d/7UuQEB0",
-    "summary": "An introductory guide to MCP (Model Context Protocol), the standard for the AI agent era. The author of the wildly popular slides “Gentle Introduction to MCP” gently explains the fundamentals of this new technology."
-  },
-      {
-    "name": "AIエージェント開発 / 運用入門 [生成AI深掘りガイド]",
-    "publisher": "SBクリエイティブ",
-    "releaseDate": "2025-10-01",
-    "url": "https://amzn.asia/d/7lIdXTx",
-    "summary": "Learn everything about AI agents—the basics, how to build them, and how to use them—all in one book!This comprehensive introductory guide thoroughly explains the fundamentals of AI agents, the hot topic of recent years, step by step from the very basics. It covers essential foundational knowledge, how to build AI agents, real-world use cases, and even Large Language Models (LLMs), which are indispensable when discussing AI agents. The authors are three leading experts in AI application development: Minoru Oda (Tech Evangelist, KDDI Agile Development Center), Yu Otsubo (Software Engineer, KDDI Agile Development Center), and Maki Tsukada (Engineer, AI Strategy Project Group, Mitsubishi Electric). Together, they provide a comprehensive guide covering everything from the fundamentals of LLMs and generative AI to cutting-edge use cases and the latest API implementation methods. The book also provides detailed guidance on how to actually develop AI agents. Reading this book allows you to master the fundamentals of Amazon Bedrock, Claude, LangChain, and LangGraph, enabling you to broadly and thoroughly learn the key technologies for AI agent development. Furthermore, the latter part of the book introduces practical techniques usable in real development environments. It covers AI agent development methods using the recently popular “Mastra” (an AI development framework) and explains post-development operational phase techniques (LLMOps) using Langfuse, taking you directly to a practical level."
-  }
+      "name": "やさしいMCP入門 (Gentle Introduction to MCP)",
+      "publisher": "秀和システム (Shuwa System)",
+      "releaseDate": "2025-07-01",
+      "url": "https://www.amazon.co.jp/dp/4798075736",
+      "summary": "Co-authored with Minoru Onda. Introduction to Model Context Protocol (MCP), the new standard for AI agent era. Based on popular slides, explains fundamentals accessible to both engineers and non-engineers. Covers MCP architecture, hands-on tutorials, client/server applications, and business impact. Reprinted within 2 months due to strong reception. 160 pages, A5 format."
+    },
+    {
+      "name": "AIエージェント開発/運用入門 [生成AI深掘りガイド] (AI Agent Development/Operations Guide)",
+      "publisher": "SBクリエイティブ (SB Creative)",
+      "releaseDate": "2025-10-01",
+      "url": "https://www.sbcr.jp/product/4815636609/",
+      "summary": "Co-authored with Minoru Onda and Masaki Tsukada. Comprehensive guide covering AI agent fundamentals to implementation and LLMOps. Includes complete implementation examples from simple reasoning agents to MCP-based and multi-agent systems. Covers LangChain, LangGraph, Mastra, Amazon Bedrock, Langfuse, and Guardrails. Features full-color illustrations and extensive hands-on exercises. Launch event held on release date. 408 pages."
+    },
+    {
+      "name": "KAG Tech Book -Vol1-",
+      "publisher": "KDDI Agile Development Center",
+      "releaseDate": "2025-05-30",
+      "url": "https://techbookfest.org/product/7YEcq5ZEqMrcn7syzVhcdQ",
+      "summary": "Technical anthology by KDDI Agile Development Center engineers. Contributed chapter on 'Celery in Detail' - comprehensive guide to Python distributed task queue library including operational considerations and AWS scaling practices. Published at Gijutsushoten 18 (Tech Book Festival 18)."
+    }
   ],
   "skills": [
     {
-      "name": "AWS",
+      "name": "Generative AI & LLM",
+      "level": "Master",
+      "keywords": [
+        "Amazon Bedrock",
+        "Claude 3 (Opus/Sonnet)",
+        "OpenAI API",
+        "LangChain",
+        "LangGraph",
+        "Mastra",
+        "Model Context Protocol (MCP)",
+        "Langfuse",
+        "ReAct Agent Pattern",
+        "Agentic Workflow",
+        "Multi-Agent Systems",
+        "A2A Protocol",
+        "RAG (Retrieval Augmented Generation)"
+      ]
+    },
+    {
+      "name": "AWS Cloud Services",
       "level": "Master",
       "keywords": [
         "Lambda",
-        "ECS",
+        "ECS/Fargate",
         "DynamoDB",
-        "SQS",
+        "S3",
+        "SQS/SNS",
         "CloudWatch",
         "Athena",
-        "S3",
         "Glue",
-        "Terraform"
+        "Kinesis",
+        "RDS",
+        "ElastiCache Valkey",
+        "OpenSearch Serverless",
+        "Transcribe",
+        "AppSync",
+        "Amplify",
+        "Terraform",
+        "AWS CDK",
+        "Terraform Cloud"
       ]
     },
     {
-      "name": "Backend Develop",
+      "name": "Backend Development",
       "level": "Master",
       "keywords": [
-        "FastAPI(Python)",
-        "Nest.js(TypeScript)",
-        "SpringBoot(Java)",
-        "Echo(Go)"
+        "FastAPI (Python)",
+        "Flask (Python)",
+        "Nest.js (TypeScript)",
+        "Node.js",
+        "Express",
+        "SpringBoot (Java)",
+        "Echo (Go)",
+        "Pytest",
+        "Pandas",
+        "Scikit-learn"
       ]
     },
     {
-      "name": "Frontend Develop",
+      "name": "Frontend Development",
       "level": "Advanced",
       "keywords": [
         "React.js",
@@ -264,37 +418,83 @@
         "Gatsby.js",
         "Astro",
         "Vue.js",
-        "Nuxt.js"
+        "Nuxt.js",
+        "Preact",
+        "TypeScript",
+        "Styled Components",
+        "Bootstrap 5",
+        "Sass/SCSS",
+        "Jest",
+        "React Testing Library",
+        "Cypress",
+        "Storybook",
+        "Percy",
+        "Lighthouse"
       ]
     },
     {
-      "name": "Database",
+      "name": "Database & Data Engineering",
       "level": "Advanced",
       "keywords": [
         "MySQL",
         "PostgreSQL",
         "ClickHouse",
         "Snowflake",
-        "Presto with Hadoop"
+        "Presto with Hadoop",
+        "Data Lake Architecture"
       ]
     },
     {
-      "name": "Data Science",
+      "name": "DevOps & CI/CD",
+      "level": "Master",
+      "keywords": [
+        "GitHub Actions",
+        "Drone CI",
+        "CircleCI",
+        "Travis CI",
+        "Azure Pipelines",
+        "Docker",
+        "Autify",
+        "K6 Load Testing",
+        "Blue/Green Deployment",
+        "Serverless Architecture",
+        "Prettier",
+        "ESLint",
+        "Stylelint",
+        "Textlint"
+      ]
+    },
+    {
+      "name": "Security & Monitoring",
+      "level": "Advanced",
+      "keywords": [
+        "Snyk",
+        "OWASP ZAP",
+        "Gitguardian",
+        "Brightsec",
+        "Sentry",
+        "Zabbix",
+        "Splunk"
+      ]
+    },
+    {
+      "name": "Data Science & ML",
       "level": "Intermediate",
       "keywords": [
-        "Jupyter notebook",
+        "Jupyter Notebook",
         "Pandas",
-        "Scikit learn",
+        "Scikit-learn",
         "R",
-        "Keras"
+        "Keras",
+        "Statistical Analysis"
       ]
     },
     {
-      "name": "Native App Develop",
+      "name": "Mobile Development",
       "level": "Beginner",
       "keywords": [
-        "Flutter",
-        "Android Java(WearOS)"
+        "Flutter (Dart)",
+        "Android Java (WearOS)"
       ]
     }
   ],
@@ -305,69 +505,330 @@
     },
     {
       "language": "English",
-      "fluency": "Intermediate"
+      "fluency": "Business Intermediate"
     }
   ],
   "interests": [
     {
-      "name": "Photograph",
+      "name": "Professional Interests",
       "keywords": [
-        "Take photos in metropolis night view",
-        "Take photos in Nature"
+        "Generative AI and LLM applications",
+        "AI Agent development and orchestration",
+        "LLMOps and observability",
+        "AWS serverless architecture",
+        "Full-stack web development",
+        "DevOps and CI/CD automation",
+        "Open source contribution",
+        "Technical writing and knowledge sharing"
+      ]
+    },
+    {
+      "name": "Photography",
+      "keywords": [
+        "Landscape photography",
+        "Historical buildings and architecture",
+        "Emotional and atmospheric shots",
+        "Travel photography worldwide"
       ]
     },
     {
       "name": "Music",
       "keywords": [
-        "Original music"
+        "DTM composition (Vocaloid)",
+        "Guitar playing",
+        "High-tempo rhythmic music",
+        "Collaboration with other artists"
       ]
     },
     {
-      "name": "Sports",
+      "name": "Personal Projects",
       "keywords": [
-        "Watching Baseball",
-        "Playing Table-tennis"
+        "Weekend coding projects",
+        "Home automation with Raspberry Pi",
+        "Chrome theme development",
+        "Technical blog writing"
       ]
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "name": "Minoru Onda (御田稔)",
+      "reference": "Tech Evangelist at KDDI Agile Development Center. AWS Community Hero and AWS Samurai 2023/2024. Co-author of 3 technical books. Qiita 2024 Top Contributor.",
+      "relationship": "Colleague and Co-author"
+    }
+  ],
   "projects": [
     {
-      "name": "The chat-bot service for customer support(Web)",
-      "description": "The chat-bot that solves the problems of customers for telecommunications companies.\nThis chat-bot service is a hybrid architecture of chat-bots and human operators, labor saving and improved customer satisfaction were achieved at the same time.\nAnd also, adopting Elasticsearch as a FAQ search engine and using it in combination with other AI engines achieves a high response rate.\nI was Experienced roles on Primary Developer, Data scientist for making FAQ engine and Scrum master for the team.",
+      "name": "A-BOSS (AI Business Department Manager)",
+      "description": "Production AI agent serving as a virtual department manager for KDDI corporate sales. Provides executive-level expertise for proposal reviews and strategic guidance. Features faithful replication of real executive's thinking patterns, personality, and speaking style (including Kansai dialect). Built on Amazon Bedrock with Agentic Workflow using ReAct pattern.",
       "highlights": [
-        "A chat-bot in Web page",
-        "Hybrid arch with chat-bot and human operators",
-        "Use Elasticsearch for FAQ search engine"
+        "Serving 700+ KDDI corporate sales staff in production",
+        "Achieves 10 hours/month efficiency gain per user",
+        "Reduced proposal creation time by up to 1 hour",
+        "Contributes to KDDI-BX initiative (46,939 hours/year saved company-wide)",
+        "Featured in AWS Japan Official Blog and multiple media outlets (Nikkei, Business Insider Japan)",
+        "Multi-modal analysis including PowerPoint documents",
+        "Automatic user feedback summarization and reflection",
+        "RAG with internal knowledge base",
+        "LLMOps with Langfuse for observability"
+      ],
+      "keywords": [
+        "Amazon Bedrock",
+        "Claude 3 Opus",
+        "LangChain",
+        "LangGraph",
+        "ReAct Agent",
+        "Amazon OpenSearch Serverless",
+        "ECS",
+        "DynamoDB",
+        "Langfuse",
+        "LLMOps"
+      ],
+      "startDate": "2024-07-01",
+      "endDate": "",
+      "roles": [
+        "Development Lead",
+        "AI Solution Architect",
+        "LLMOps Engineer"
+      ],
+      "url": "https://www.youtube.com/watch?v=qxUbeFSupAc",
+      "entity": "KDDI Agile Development Center",
+      "type": "Production AI Agent"
+    },
+    {
+      "name": "議事録パックン (Minutes Pakkun)",
+      "description": "Comprehensive sales support tool covering the full cycle: meeting transcription → proposal creation → knowledge sharing. Automatically generates meeting minutes from audio/video, creates proposal drafts, searches internal product information, generates competitor comparison tables, and creates daily/weekly reports.",
+      "highlights": [
+        "Saves up to 1 hour per meeting",
+        "End-to-end sales activity support",
+        "Multi-modal input (audio/video)",
+        "Automated proposal generation",
+        "Internal knowledge base integration",
+        "Competitor analysis automation"
+      ],
+      "keywords": [
+        "Amazon Transcribe",
+        "Amazon Bedrock",
+        "Claude 3 Opus",
+        "LangChain",
+        "ReAct Agent",
+        "ECS",
+        "DynamoDB",
+        "Langfuse"
+      ],
+      "startDate": "2024-09-01",
+      "endDate": "",
+      "roles": [
+        "Technical Lead",
+        "Backend Developer"
+      ],
+      "url": "",
+      "entity": "KDDI Agile Development Center",
+      "type": "Production AI Tool"
+    },
+    {
+      "name": "かぐたん (Kagutan) - Secure Internal AI Chatbot",
+      "description": "Secure internal generative AI chatbot deployed across KDDI Digital Divergence Holdings group companies. Provides safe AI chat capabilities with complete conversation logging and multi-tenant support. Passed internal security audit.",
+      "highlights": [
+        "Deployed to 1,200 users across 4 companies",
+        "~2,000 monthly requests",
+        "Complete conversation history logging",
+        "Multi-tenant architecture",
+        "Passed internal audit for security compliance",
+        "Slack Socket Mode for secure communication"
+      ],
+      "keywords": [
+        "AWS Fargate",
+        "Amazon Bedrock",
+        "Claude 3",
+        "Slack Socket Mode",
+        "DynamoDB",
+        "Multi-tenant"
+      ],
+      "startDate": "2024-05-01",
+      "endDate": "",
+      "roles": [
+        "Backend Developer",
+        "DevOps Engineer"
+      ],
+      "url": "",
+      "entity": "KDDI Agile Development Center",
+      "type": "Production Chatbot"
+    },
+    {
+      "name": "midi-mcp-server",
+      "description": "Model Context Protocol server for MIDI generation. Enables AI agents to create MIDI files programmatically through standardized protocol interface.",
+      "highlights": [
+        "16 stars on GitHub",
+        "Early contribution to MCP ecosystem",
+        "TypeScript implementation",
+        "Integration with midi-writer-js"
+      ],
+      "keywords": [
+        "Model Context Protocol",
+        "TypeScript",
+        "MIDI",
+        "AI Agent Tools"
+      ],
+      "startDate": "2025-04-01",
+      "endDate": "",
+      "roles": [
+        "Creator",
+        "Maintainer"
+      ],
+      "url": "https://github.com/tubone24/midi-mcp-server",
+      "entity": "Personal OSS",
+      "type": "Open Source Library"
+    },
+    {
+      "name": "mcp-prompts",
+      "description": "MCP server for prompt template management. Provides dynamic template loading and resource management for AI agent systems.",
+      "highlights": [
+        "YAML-based template configuration",
+        "Dynamic template loading",
+        "MCP resource management",
+        "Integration with various AI frameworks"
+      ],
+      "keywords": [
+        "Model Context Protocol",
+        "TypeScript",
+        "Prompt Engineering",
+        "Template Management"
+      ],
+      "startDate": "2025-04-01",
+      "endDate": "",
+      "roles": [
+        "Creator",
+        "Maintainer"
+      ],
+      "url": "https://github.com/tubone24/mcp-prompts",
+      "entity": "Personal OSS",
+      "type": "Open Source Library"
+    },
+    {
+      "name": "langfuse-v3-terraform",
+      "description": "Terraform module for deploying Langfuse v3 on AWS. Enables cost-effective LLMOps infrastructure setup with best practices.",
+      "highlights": [
+        "Production-ready Terraform module",
+        "Cost-optimized AWS deployment",
+        "Comprehensive blog posts on operation",
+        "Community contributions to Langfuse ecosystem"
+      ],
+      "keywords": [
+        "Terraform",
+        "Langfuse",
+        "AWS",
+        "LLMOps",
+        "Infrastructure as Code"
+      ],
+      "startDate": "2024-12-01",
+      "endDate": "",
+      "roles": [
+        "Creator",
+        "Maintainer"
+      ],
+      "url": "https://github.com/tubone24/langfuse-v3-terraform",
+      "entity": "Personal OSS",
+      "type": "Infrastructure Tool"
+    },
+    {
+      "name": "Portfolio Website",
+      "description": "Personal portfolio website built with modern web technologies. Achieved 100% Lighthouse score across all categories (Performance, Accessibility, Best Practices, SEO). All photography by the author.",
+      "highlights": [
+        "Lighthouse 100% perfect score",
+        "PWA implementation",
+        "Comprehensive CI/CD with GitHub Actions",
+        "Jest, Cypress, Percy, Storybook testing",
+        "Deployed on Netlify"
+      ],
+      "keywords": [
+        "Gatsby.js",
+        "React",
+        "TypeScript",
+        "PWA",
+        "Netlify"
+      ],
+      "startDate": "2019-01-01",
+      "endDate": "",
+      "roles": [
+        "Full-stack Developer",
+        "Designer",
+        "Photographer"
+      ],
+      "url": "https://portfolio.tubone-project24.xyz/",
+      "entity": "Personal",
+      "type": "Web Application"
+    },
+    {
+      "name": "Technical Blog",
+      "description": "Technical blog built with Gatsby v4, Preact, and TypeScript. Features PWA, Algolia search, and maintains 100% Lighthouse score. Covers topics in AI, AWS, DevOps, and full-stack development.",
+      "highlights": [
+        "Lighthouse 100% score",
+        "Gatsby v4 with Preact optimization",
+        "Algolia full-text search",
+        "Bootstrap 5 responsive design",
+        "Comprehensive testing (Jest, Cypress, Percy, Storybook)",
+        "Regular technical articles on AI, AWS, and development practices"
+      ],
+      "keywords": [
+        "Gatsby.js",
+        "Preact",
+        "TypeScript",
+        "Bootstrap 5",
+        "Algolia",
+        "PWA"
+      ],
+      "startDate": "2018-01-01",
+      "endDate": "",
+      "roles": [
+        "Author",
+        "Full-stack Developer"
+      ],
+      "url": "https://blog.tubone-project24.xyz/",
+      "entity": "Personal",
+      "type": "Technical Blog"
+    },
+    {
+      "name": "The Chatbot Service for Customer Support (Web)",
+      "description": "Hybrid architecture chatbot combining AI and human operators for telecommunications customer support. Achieved high FAQ response rate using Elasticsearch as search engine.",
+      "highlights": [
+        "Hybrid architecture with chatbot and human operators",
+        "Elasticsearch-based FAQ search engine",
+        "Labor saving and improved customer satisfaction",
+        "Roles: Primary Developer, Data Scientist, Scrum Master"
       ],
       "keywords": [
         "AWS",
         "Python",
-        "Elasticsearch"
+        "Elasticsearch",
+        "Customer Support"
       ],
       "startDate": "2016-03-16",
       "endDate": "2018-09-30",
       "roles": [
-        "Primary Developper",
-        "Data scientist for making FAQ engine",
-        "Scrum master"
+        "Primary Developer",
+        "Data Scientist",
+        "Scrum Master"
       ],
       "url": "https://www.au.com/support/inquiry/message/",
-      "entity": "KDDI CORPORATION",
-      "type": "Chat-bot"
+      "entity": "KDDI Corporation",
+      "type": "Production Chatbot"
     },
     {
-      "name": "The chatbot service for customer support(Native Apps)",
-      "description": "As a chatbot enhancement project created in FY2018, we have made it possible to respond in the same way not only on web pages but also on customer support apps created on Android and iOS.\nLike the previous time, it uses a Docker container and AWS managed services, and is structured to be aware of the microarchitecture.\nIn this architecture, Node.js is used as a server for Backends For Frontends to communicate with customers using apps using Websocket. It uses Python for Backend.\nThe architecture was presented at AWS Summit Tokyo 2019.\n",
+      "name": "The Chatbot Service for Customer Support (Native Apps)",
+      "description": "Enhanced chatbot service for Android and iOS customer support apps. Microarchitecture using Node.js for BFF with WebSocket, Python for backend. Architecture featured at AWS Summit Tokyo 2019.",
       "highlights": [
-        "A chatbot in Native App",
-        "Hybrid arch with chatbot and human operators",
-        "Featured at AWS Summit Tokyo"
+        "Native app chatbot for Android and iOS",
+        "WebSocket-based real-time communication",
+        "Microarchitecture with Docker containers",
+        "Featured at AWS Summit Tokyo 2019"
       ],
       "keywords": [
         "AWS",
         "Node.js",
-        "Python"
+        "Python",
+        "WebSocket",
+        "Native Apps"
       ],
       "startDate": "2018-10-01",
       "endDate": "2022-03-31",
@@ -375,43 +836,17 @@
         "Architect",
         "Tech Lead",
         "Primary Developer",
-        "Scrum master"
+        "Scrum Master"
       ],
       "url": "https://www.au.com/support/inquiry/message/",
-      "entity": "KDDI CORPORATION",
-      "type": "Chat-bot"
-    },
-    {
-      "name": "A-BOSS (AI Business Department Manager)",
-      "description": "Developed an advanced AI agent called A-BOSS that functions as a virtual department manager to support sales activities at KDDI. The system automatically reviews business proposals from a department manager's perspective and provides comprehensive support across all aspects of sales operations. Built on Amazon Bedrock with Agentic Workflow technology, A-BOSS represents a production implementation of LLMOps (Large Language Model Operations). The system features adaptive learning capabilities that allow it to become increasingly intelligent with continued usage.",
-      "highlights": [
-    "Developed an AI agent that provides department manager-level guidance to sales teams",
-    "Implemented Amazon Bedrock with Agentic Workflow architecture",
-    "Created a production-grade LLMOps system with continuous learning capabilities",
-    "Integrated with existing sales support systems for seamless workflow",
-    "Featured in KDDI's official corporate communications"
-      ],
-      "keywords": [    "Amazon Bedrock",
-    "LLMOps",
-    "Generative AI",
-    "AI Agent",
-    "Sales Support System"
-      ],
-      "startDate": "2024-07-01",
-      "endDate": "",
-      "roles": [
-    "AI Solution Architect",
-    "Technical Lead",
-    "LLMOps Engineer"
-      ],
-      "url": "https://www.youtube.com/watch?v=qxUbeFSupAc",
-      "entity": "KDDI CORPORATION",
-      "type": "AI Agent"
+      "entity": "KDDI Corporation",
+      "type": "Production Chatbot"
     }
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/tubone24/resume-json-data/master/resume.json",
-    "version": "v1.2.0",
-    "lastModified": "2025-06-01T00:00:00"
+    "version": "v2.0.0",
+    "lastModified": "2025-11-09T00:00:00",
+    "note": "Updated with comprehensive research data as of November 2025. Currently on parental leave (Sep 2025 - Apr 2026) while continuing technical activities including book publications and open source contributions."
   }
 }
