@@ -315,7 +315,7 @@
       "level": "Master",
       "keywords": [
         "Amazon Bedrock",
-        "Claude 3 (Opus/Sonnet)",
+        "Claude 4 (Opus/Sonnet)",
         "OpenAI API",
         "LangChain",
         "LangGraph",
@@ -527,7 +527,7 @@
       ],
       "keywords": [
         "Amazon Bedrock",
-        "Claude 3 Opus",
+        "Claude 4 Sonnet",
         "LangChain",
         "LangGraph",
         "ReAct Agent",
@@ -580,35 +580,6 @@
       "type": "Production AI Tool"
     },
     {
-      "name": "かぐたん (Kagutan) - Secure Internal AI Chatbot",
-      "description": "Secure internal generative AI chatbot deployed across KDDI Digital Divergence Holdings group companies. Provides safe AI chat capabilities with complete conversation logging and multi-tenant support. Passed internal security audit.",
-      "highlights": [
-        "Deployed to 1,200 users across 4 companies",
-        "~2,000 monthly requests",
-        "Complete conversation history logging",
-        "Multi-tenant architecture",
-        "Passed internal audit for security compliance",
-        "Slack Socket Mode for secure communication"
-      ],
-      "keywords": [
-        "AWS Fargate",
-        "Amazon Bedrock",
-        "Claude 3",
-        "Slack Socket Mode",
-        "DynamoDB",
-        "Multi-tenant"
-      ],
-      "startDate": "2024-05-01",
-      "endDate": "",
-      "roles": [
-        "Backend Developer",
-        "DevOps Engineer"
-      ],
-      "url": "",
-      "entity": "KDDI Agile Development Center",
-      "type": "Production Chatbot"
-    },
-    {
       "name": "midi-mcp-server",
       "description": "Model Context Protocol server for MIDI generation. Enables AI agents to create MIDI files programmatically through standardized protocol interface.",
       "highlights": [
@@ -630,31 +601,6 @@
         "Maintainer"
       ],
       "url": "https://github.com/tubone24/midi-mcp-server",
-      "entity": "Personal OSS",
-      "type": "Open Source Library"
-    },
-    {
-      "name": "mcp-prompts",
-      "description": "MCP server for prompt template management. Provides dynamic template loading and resource management for AI agent systems.",
-      "highlights": [
-        "YAML-based template configuration",
-        "Dynamic template loading",
-        "MCP resource management",
-        "Integration with various AI frameworks"
-      ],
-      "keywords": [
-        "Model Context Protocol",
-        "TypeScript",
-        "Prompt Engineering",
-        "Template Management"
-      ],
-      "startDate": "2025-04-01",
-      "endDate": "",
-      "roles": [
-        "Creator",
-        "Maintainer"
-      ],
-      "url": "https://github.com/tubone24/mcp-prompts",
       "entity": "Personal OSS",
       "type": "Open Source Library"
     },
@@ -683,63 +629,6 @@
       "url": "https://github.com/tubone24/langfuse-v3-terraform",
       "entity": "Personal OSS",
       "type": "Infrastructure Tool"
-    },
-    {
-      "name": "Portfolio Website",
-      "description": "Personal portfolio website built with modern web technologies. Achieved 100% Lighthouse score across all categories (Performance, Accessibility, Best Practices, SEO). All photography by the author.",
-      "highlights": [
-        "Lighthouse 100% perfect score",
-        "PWA implementation",
-        "Comprehensive CI/CD with GitHub Actions",
-        "Jest, Cypress, Percy, Storybook testing",
-        "Deployed on Netlify"
-      ],
-      "keywords": [
-        "Gatsby.js",
-        "React",
-        "TypeScript",
-        "PWA",
-        "Netlify"
-      ],
-      "startDate": "2019-01-01",
-      "endDate": "",
-      "roles": [
-        "Full-stack Developer",
-        "Designer",
-        "Photographer"
-      ],
-      "url": "https://portfolio.tubone-project24.xyz/",
-      "entity": "Personal",
-      "type": "Web Application"
-    },
-    {
-      "name": "Technical Blog",
-      "description": "Technical blog built with Gatsby v4, Preact, and TypeScript. Features PWA, Algolia search, and maintains 100% Lighthouse score. Covers topics in AI, AWS, DevOps, and full-stack development.",
-      "highlights": [
-        "Lighthouse 100% score",
-        "Gatsby v4 with Preact optimization",
-        "Algolia full-text search",
-        "Bootstrap 5 responsive design",
-        "Comprehensive testing (Jest, Cypress, Percy, Storybook)",
-        "Regular technical articles on AI, AWS, and development practices"
-      ],
-      "keywords": [
-        "Gatsby.js",
-        "Preact",
-        "TypeScript",
-        "Bootstrap 5",
-        "Algolia",
-        "PWA"
-      ],
-      "startDate": "2018-01-01",
-      "endDate": "",
-      "roles": [
-        "Author",
-        "Full-stack Developer"
-      ],
-      "url": "https://blog.tubone-project24.xyz/",
-      "entity": "Personal",
-      "type": "Technical Blog"
     },
     {
       "name": "The Chatbot Service for Customer Support (Web)",
@@ -799,7 +688,7 @@
   "meta": {
     "canonical": "https://raw.githubusercontent.com/tubone24/resume-json-data/master/resume.json",
     "version": "v2.0.0",
-    "lastModified": "2025-11-09T00:00:00",
+    "lastModified": "2025-11-10T00:00:00",
     "note": "Updated with comprehensive research data as of November 2025. Currently on parental leave (Sep 2025 - Apr 2026) while continuing technical activities including book publications and open source contributions."
   }
 }
