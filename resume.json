@@ -540,6 +540,7 @@
         "Internal knowledge base integration",
         "Competitor analysis automation"
       ],
+      "url": "https://kddi-agile.com/news/20240904-01",
       "keywords": [
         "Amazon Transcribe",
         "Amazon Bedrock",
@@ -550,13 +551,12 @@
         "DynamoDB",
         "Langfuse"
       ],
-      "startDate": "2024-09-01",
-      "endDate": "",
+      "startDate": "2024-04-01",
+      "endDate": "2024-10-01",
       "roles": [
         "Technical Lead",
         "Backend Developer"
       ],
-      "url": "",
       "entity": "KDDI Agile Development Center",
       "type": "Production AI Tool"
     },
