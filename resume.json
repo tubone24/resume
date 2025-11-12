@@ -28,7 +28,7 @@
         "url": "https://x.com/tubone24"
       },
       {
-        "network": "Blog",
+        "network": "Web",
         "username": "tubone24",
         "url": "https://blog.tubone-project24.xyz/"
       },
@@ -54,7 +54,6 @@
         "Co-authored 3 technical books: 'やさしいMCP入門', 'AIエージェント開発/運用入門', and 'KAG Tech Book Vol.1'",
         "Featured in AWS Japan Official Blog for A-BOSS case study",
         "Instructor at KAGAI Learning Hub for GenAI and AI agent training",
-        "Active speaker at technical conferences including NW-JAWS and Langfuse Night",
         "Currently on parental leave (Sep 2025 - Apr 2026) while continuing technical activities"
       ]
     },
@@ -68,15 +67,16 @@
       "highlights": [
         "Built and improved CI/CD pipeline and infrastructure on AWS",
         "Migrated services from EC2 to ECS/Fargate with Blue/Green deployment",
+        "For the Michibiku application, we conducted an AWS Foundational Technical Review (FTR) and obtained AWS Certified Software.",
         "Expanded automated testing using Autify and developed execution pipeline for QA efficiency"
       ]
     },
     {
-      "company": "KDDI Corporation (EventHub Division)",
+      "company": "EventHub Division",
       "position": "Application Engineer / Development Manager",
-      "website": "https://www.kddi.com/",
+      "website": "https://eventhub.jp/",
       "startDate": "2018-08-01",
-      "endDate": "2023-08-31",
+      "endDate": "2024-01-31",
       "summary": "Full-cycle engineer for Web-based event matching platform using AWS, Nest.js, and React with TypeScript. Development Manager for Product Infrastructure team.",
       "highlights": [
         "Developed pseudo-live function for pre-recorded video live streaming",
@@ -174,19 +174,6 @@
       ]
     },
     {
-      "organization": "KAGAI Learning Hub",
-      "position": "Instructor",
-      "website": "https://kddi-agile.com",
-      "startDate": "2025-01-01",
-      "endDate": "",
-      "summary": "Providing enterprise training on generative AI and AI agent development.",
-      "highlights": [
-        "Corporate training on GenAI application development",
-        "AI agent architecture and LLMOps workshops",
-        "Sharing production-level implementation knowledge"
-      ]
-    },
-    {
       "organization": "Open Source Community",
       "position": "Active Contributor",
       "website": "https://github.com/tubone24",
@@ -260,12 +247,6 @@
   ],
   "awards": [
     {
-      "title": "AWS Summit Tokyo 2019 - Featured Speaker",
-      "date": "2019-06-12",
-      "awarder": "Amazon Web Services / KDDI Corporation",
-      "summary": "Lectured at company booth on chatbot architecture using AWS services. Presented serverless architecture with ECS, DynamoDB, and Lambda."
-    },
-    {
       "title": "KDDI-BX Project Achievement",
       "date": "2024-12-31",
       "awarder": "KDDI Corporation",
@@ -281,7 +262,7 @@
   "certificates": [
     {
       "name": "AWS Certified Solutions Architect - Professional",
-      "date": "Active",
+      "date": "Inactive",
       "issuer": "Amazon Web Services",
       "url": "https://aws.amazon.com/certification/"
     }
